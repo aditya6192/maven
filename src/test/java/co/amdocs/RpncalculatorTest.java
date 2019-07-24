@@ -17,6 +17,7 @@ public class RpncalculatorTest {
 		RPNCalculator calculator =new RPNCalculator();
 		double actual =calculator.solve("6 3 -");
 		double expected =3;
+		
 		assertEquals(expected,actual,0.01);
 		
 		}
